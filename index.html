@@ -6,20 +6,62 @@
 
 <style>
 body{
+    {
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
     font-family: Arial;
     padding:20px;
-}
+    background:url('https://wallpapercave.com/wp/wp1945909.jpg')
+    no-repeat center center fixed;
 
+    background-size:cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+}
+.container{
+
+    background:rgba(255,255,255,0.9);
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+    width:350px;
+
+    text-align:center;
+}
 input,select,textarea{
-    width:300px;
-    padding:8px;
-    margin:5px 0;
-}
+    width:95%;
+    padding:10px;
+    margin:8px 0;
 
-.star{
-    font-size:30px;
-    color:gray;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
     cursor:pointer;
+}
+    button:hover{
+
+    background:#0056b3;
+.star{
+
+    font-size:30px;
+    cursor:pointer;
+    color:gray;
 }
 
 .active{
